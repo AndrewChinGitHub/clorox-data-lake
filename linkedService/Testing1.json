@@ -1,0 +1,18 @@
+{
+	"name": "Testing1",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://abchintest.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "9c272a06-9f0a-43f5-8e40-214a24c5098b",
+			"subscriptionId": "ce2a8168-14ce-46b9-9704-965c9252739c",
+			"resourceGroupName": "CloroxTesting"
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
